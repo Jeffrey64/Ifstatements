@@ -16,19 +16,27 @@ public class HelloWorld
     public void run() {
         if (a==5) {
             System.out.println("SUCCESS");
-        } else  
+        } else { 
             System.out.println("FAILURE");
-        if (b==2) 
+
+        } if (b==2) {
             System.out.println("SUCCESS");
-        else 
+        } else {
             System.out.println("FAILURE");
-        if (c!=1)
+
+        } if (c!=1){
             System.out.println("SUCCESS");
-        else 
+        } else {
             System.out.println("FAILURE");
+
+        } if (d ==-8 && 4 ==d) {
+            System.out.println("SUCCESS");
+        } else {
+            System.out.println("FAILURE");
+        }
+        System.out.println("Hello World!");
     }
 
-    
     public static void main(String[] args)
     {        
         HelloWorld hw = new HelloWorld();
